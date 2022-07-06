@@ -4,10 +4,8 @@ import axios from "axios";
 
 // https://api.particle.io/v1/devices/E00FCE68986801735C908D66/LED
 
-const DEVID = "https://api.particle.io/v1/devices/E00FCE68986801735C908D66";
-const ACCESSTOKEN = "9bf9cd2bbb783ae5a966e1eea48c4f568ce4da29";
-const PARTICLEAPI = `${DEVID}/status?access_token=${ACCESSTOKEN}`;
-const POSTURL = `${DEVID}/LED?access_token=${ACCESSTOKEN}`;
+const STATUSURL = `http://localhost:3001/status`;
+const SWITCHURL = `http://localhost:3001/switch`;
 
 class App extends React.Component {
 	constructor(props) {
@@ -20,7 +18,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get(PARTICLEAPI).then((res) => {
+		axios.get(STATUSURL).then((res) => {
 			this.setState({
 				status: res.data.result,
 			});
@@ -29,11 +27,10 @@ class App extends React.Component {
 
 	switchLED() {
 		axios
-			.post(POSTURL)
+			.post(SWITCHURL)
 			.then((res) => {
-				console.log(res.data.return_value);
 				this.setState({
-					status: res.data.return_value,
+					status: res.data.result,
 				});
 			})
 			.catch((error) => {
