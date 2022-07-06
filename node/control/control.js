@@ -15,12 +15,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-function statusLED() {
+async function statusLED() {
 	try {
-		axios.get(GETURL).then((res) => {
-			console.log("status led api");
-			return res.data.result;
-		});
+		let statusResponse = await axios.get(GETURL);
+		return statusResponse.data.result;
 	} catch (error) {
 		console.error(error);
 	}
@@ -41,12 +39,14 @@ app.get("/", (req, res) => {
 	res.end("Hello World");
 });
 
-app.get("/status", (req, res) => {
-	res.send("aaaaaaa");
+app.get("/status", async (req, res) => {
+	let ledStatus = await statusLED();
+	res.send({ result: ledStatus });
 });
 
-app.post("/switch", (req, res) => {
-	res.send(switchLED());
+app.post("/switch", async (req, res) => {
+	let ledStatus = await switchLED();
+	res.send({ result: ledStatus });
 });
 
 app.listen(port, () => {
