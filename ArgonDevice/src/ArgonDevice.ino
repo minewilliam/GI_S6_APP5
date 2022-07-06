@@ -1,18 +1,21 @@
-/*
- * Project ArgonDevice
- * Description:
- * Author:
- * Date:
- */
+bool status = false;
+const pin_t MY_LED = D7;
 
-// setup() runs once, when the device is first turned on.
-void setup() {
-  // Put initialization like pinMode and begin functions here.
-
+void setup()
+{
+  pinMode(D7, OUTPUT);
+  Particle.variable("status", status);
+  Particle.function("LED", switchLED);
 }
 
-// loop() runs over and over again, as quickly as it can execute.
-void loop() {
-  // The core of your code will likely live here.
+bool switchLED(String extra) {
+  status = !status;
+  return status;
+}
 
+void loop()
+{
+  digitalWrite(MY_LED, status);
+  if(status) Serial.print("we gucc");
+  delay(2500);
 }
