@@ -3,7 +3,7 @@ const mqtt = require("mqtt");
 var client = mqtt.connect("mqtt://broker.hivemq.com");
 
 client.on("connect", function () {
-  client.subscribe("AYOOOOOOOOOOOOOOOOO");
+  client.subscribe("123123123");
 
   console.log("Client subscribed ");
 });

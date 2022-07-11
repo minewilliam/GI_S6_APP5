@@ -1,32 +1,32 @@
-d:/UDES/S6/APP5/GI_S6_APP5/ArgonDevice/target/2.3.0/argon//obj/./src/user_export.o: \
+/home/assim/Documents/S6-APP5/GI_S6_APP5/ArgonDevice/target/2.3.0/argon//obj/./src/user_export.o: \
  src/user_export.c \
  ../../../modules/shared/nRF52840/inc/user_part_export.c \
  ../../../modules/shared/nRF52840/inc/module_user_init.h \
  ../../../dynalib/inc/dynalib.h ../../../system/inc/system_user.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stdbool.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\string.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_ansi.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\newlib-nano\newlib.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_newlib_version.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\config.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\ieeefp.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\features.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\reent.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_ansi.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_types.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\_types.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\_default_types.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\lock.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\cdefs.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\xlocale.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\strings.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\string.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/string.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_ansi.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/newlib-nano/newlib.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_newlib_version.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/config.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/ieeefp.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/features.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/reent.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_ansi.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_types.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/_types.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/_default_types.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/lock.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/cdefs.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/xlocale.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/strings.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/string.h \
  ../../../hal/inc/core_hal.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\stdint.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_intsup.h \
- c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_stdint.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/stdint.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_intsup.h \
+ /home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_stdint.h \
  ../../../hal/inc/watchdog_hal.h ../../../hal/inc/core_subsys_hal.h \
  ../../../hal/inc/interrupts_hal.h ../../../hal/shared/platforms.h \
  ../../../hal/src/nRF52840/interrupts_irq.h \
@@ -53,53 +53,53 @@ d:/UDES/S6/APP5/GI_S6_APP5/ArgonDevice/target/2.3.0/argon//obj/./src/user_export
 
 ../../../system/inc/system_user.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stdbool.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stddef.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\string.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/string.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_ansi.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_ansi.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\newlib-nano\newlib.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/newlib-nano/newlib.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_newlib_version.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_newlib_version.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\config.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/config.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\ieeefp.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/ieeefp.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\features.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/features.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\reent.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/reent.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\_ansi.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/_ansi.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_types.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_types.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\_types.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/_types.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\machine\_default_types.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/machine/_default_types.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\lock.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/lock.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\cdefs.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/cdefs.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\xlocale.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/xlocale.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\strings.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/strings.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\string.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/string.h:
 
 ../../../hal/inc/core_hal.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\lib\gcc\arm-none-eabi\9.2.1\include\stdint.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\stdint.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/stdint.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_intsup.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_intsup.h:
 
-c:\users\assim\.particle\toolchains\gcc-arm\9.2.1\arm-none-eabi\include\sys\_stdint.h:
+/home/assim/.particle/toolchains/gcc-arm/9.2.1/arm-none-eabi/include/sys/_stdint.h:
 
 ../../../hal/inc/watchdog_hal.h:
 
